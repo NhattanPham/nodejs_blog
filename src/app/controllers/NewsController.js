@@ -1,8 +1,8 @@
 class NewsController {
-           index(req, res) {
-              res.render('news');
+    index(req, res) {
+        res.render('news');
     }
-               detail(req, res) {
+    detail(req, res) {
         res.send('News Detail');
     }
 }
